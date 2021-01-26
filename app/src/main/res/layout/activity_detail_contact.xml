@@ -112,6 +112,7 @@
                         android:paddingBottom="12dp">
 
                         <TextView
+                            android:id="@+id/tv_full_name"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Nama"
@@ -131,7 +132,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:backgroundTint="@color/light_grey"
-                            app:cardCornerRadius="8dp"
+                            app:cardCornerRadius="16dp"
                             app:cardUseCompatPadding="false">
 
                             <LinearLayout
@@ -167,9 +168,10 @@
                                         android:layout_weight="1">
 
                                         <TextView
+                                            android:id="@+id/tv_bod"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Bekasi"
+                                            android:text="12-04-1996"
                                             android:textColor="@color/black" />
                                     </LinearLayout>
                                 </LinearLayout>
@@ -200,6 +202,7 @@
                                         android:layout_weight="1">
 
                                         <TextView
+                                            android:id="@+id/tv_gender"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
                                             android:text="Female"
@@ -221,7 +224,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:backgroundTint="@color/light_grey"
-                            app:cardCornerRadius="8dp"
+                            app:cardCornerRadius="16dp"
                             app:cardUseCompatPadding="false">
 
                             <LinearLayout
@@ -257,6 +260,7 @@
                                         android:layout_weight="1">
 
                                         <TextView
+                                            android:id="@+id/tv_email"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
                                             android:text="test@mail.com"
@@ -290,6 +294,7 @@
                                         android:layout_weight="1">
 
                                         <TextView
+                                            android:id="@+id/tv_tlp"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
                                             android:text="8867863"
@@ -323,6 +328,7 @@
                                         android:layout_weight="1">
 
                                         <TextView
+                                            android:id="@+id/tv_hp"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
                                             android:text="08123456789"
@@ -344,7 +350,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:backgroundTint="@color/light_grey"
-                            app:cardCornerRadius="8dp"
+                            app:cardCornerRadius="16dp"
                             app:cardUseCompatPadding="false">
 
                             <LinearLayout
@@ -380,6 +386,7 @@
                                         android:layout_weight="1">
 
                                         <TextView
+                                            android:id="@+id/tv_address"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
                                             android:text="Jalan jalan"
@@ -413,6 +420,7 @@
                                         android:layout_weight="1">
 
                                         <TextView
+                                            android:id="@+id/tv_longlat"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
                                             android:text="0.0, -0.0"
@@ -443,6 +451,7 @@
                                 android:layout_height="wrap_content"
                                 android:background="@color/transparent"
                                 android:text="Hapus Kontak"
+                                android:textAllCaps="false"
                                 android:textColor="@color/white" />
                         </androidx.cardview.widget.CardView>
                     </LinearLayout>

@@ -8,6 +8,15 @@ import com.jsc.contactapp.databinding.ActivityDetailContactBinding
 class DetailContact : AppCompatActivity() {
 
     private lateinit var binding: ActivityDetailContactBinding
+    private var imageLarge = ""
+    var fullname = ""
+    var bod = ""
+    var gender = ""
+    var email = ""
+    var tlp = ""
+    val hp = ""
+    var address = ""
+    var longlat = ""
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -27,6 +36,7 @@ class DetailContact : AppCompatActivity() {
     }
 
     override fun onBackPressed() {
+        onBackPressed()
         super.onBackPressed()
     }
 }

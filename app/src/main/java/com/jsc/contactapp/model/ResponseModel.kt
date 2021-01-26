@@ -5,7 +5,7 @@ import com.google.gson.annotations.SerializedName
 data class ResponseModel(
 
     @field:SerializedName("results")
-    val results: ArrayList<PersonModel>,
+    val results: List<PersonModel>,
 
     @field:SerializedName("info")
     val info: String? = null
